@@ -4,7 +4,7 @@ React Click Outside is a simple component that can be wrapped around JSX to prov
 ## Props
 | Name | Type | Usage |
 | --- | --- | --- |
-| onClickOutside | `Function` | The functional called when the mouse is clicked outside of the wrapped element. Ignoring `ignoredRefs`. |
+| onClickOutside | `Function` | The function called when the mouse is clicked outside of the wrapped element. Ignoring `ignoredRefs`. |
 | domRef (Optional) | `ref` | If specified, this ref will be used instead of creating a new one and applied to the element |
 | ignoreRefs (Optional) | Single or Array `ref` | Refs of elements that if clicked on won't fire the `onClickOutside` callback.
 
